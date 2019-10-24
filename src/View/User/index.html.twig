@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+ {% for user in users %}
+    <p> je m'appel {{ user.firstname }}</p>
+  {% endfor %}
+
+
+ {% endblock %}
