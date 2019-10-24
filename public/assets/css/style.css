@@ -1,0 +1,24 @@
+/*
+* Banner Home
+*/
+.bannerHome {
+    height: 500px;
+}
+
+.bannerTitle, .bannerSubTitle {
+    color: #f8f9fa;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.bannerTitle {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Coda Caption', sans-serif;
+
+}
+
+.bannerSubTitle {
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
