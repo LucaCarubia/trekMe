@@ -2,7 +2,6 @@
 
 namespace App\Model;
 
-
 class TrekManager extends AbstractManager
 {
     /**
@@ -14,4 +13,6 @@ class TrekManager extends AbstractManager
     {
         parent::__construct(self::TABLE);
     }
+
+
 }
